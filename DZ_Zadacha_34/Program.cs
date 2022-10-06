@@ -4,8 +4,11 @@
 [345, 897, 568, 234] -> 2
 */
 Console.WriteLine();
+Console.WriteLine("Задача 34: Напиши код, который покажет количество чётных чисел в массиве. ");
+Console.WriteLine();
 int[] array = GetArray(4, 100, 999);
 Console.WriteLine("Ваш массив: ");
+Console.WriteLine();
 Console.WriteLine(String.Join(" ", array));
 Console.WriteLine();
 
