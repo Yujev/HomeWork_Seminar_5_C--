@@ -4,7 +4,7 @@
 [3 7 22 2 78] -> 76
 */
 Console.WriteLine();
-Console.WriteLine("Задача: Найди разницу между максимальным и минимальным элементом массива. ");
+Console.WriteLine("Задача 38: Найди разницу между максимальным и минимальным элементом массива. ");
 Console.WriteLine();
 Console.WriteLine("Твой массив: ");
 Console.WriteLine();
