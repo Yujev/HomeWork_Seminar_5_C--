@@ -3,11 +3,11 @@
 
 [345, 897, 568, 234] -> 2
 */
-
+Console.WriteLine();
 int[] array = GetArray(4, 100, 999);
 Console.WriteLine("Ваш массив: ");
 Console.WriteLine(String.Join(" ", array));
-
+Console.WriteLine();
 
 int[] GetArray(int size, int minValue, int maxValue)
 {
@@ -32,5 +32,5 @@ for (int i = 0; i < array.Length; i++)
 }
 
 Console.WriteLine($"Количество чётных чисел в массиве: {evenNumbersCount}");
-
+Console.WriteLine();
 
